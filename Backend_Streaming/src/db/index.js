@@ -8,7 +8,7 @@ const connectionDB = async ()=>{
       console.log(`DB Host: ${connectionInstance.connection.host}`);
 
     } catch (error) {
-        console.error("ERROR Msg", error);
+        console.error("Mongo DB Connection Error", error);
         process.exit(1); //Node Js give a inbuild reference to the current process and exit means to stop that one.
     }
 }

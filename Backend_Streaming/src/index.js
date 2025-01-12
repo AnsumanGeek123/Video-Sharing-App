@@ -37,6 +37,21 @@ dotenv.config({
 })
 
 connectionDB()
+// as soon as asynchrounous function complete it returns a promise.
+// Then we can use .then and .catch 
+// .then to handle successful promise and .catch to handle errors
+.then(()=>{
+    app.on("error", (error)=>{
+        console.error("APP is NOT Listening", error);
+        throw error;
+    })
+    app.listen(process.env.PORT || 8000, ()=>{
+        console.log(`server is listening at ${process.env.PORT}`);
+    });
+})
+.catch((error)=>{
+    console.error("MongoDB Connection Error !!!", error);
+})
 
 
 
