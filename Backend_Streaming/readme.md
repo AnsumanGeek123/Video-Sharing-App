@@ -2,6 +2,10 @@
 
 A full-stack video-sharing application built using **MERN stack (MongoDB, Express.js, React, Node.js)**. This app allows users to upload, stream, and share videos seamlessly.
 
+# Backend Data modeling Architecture
+
+->Link : - https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj
+
 ## Features
 
 - 🎥 **User Authentication** (Signup/Login)
@@ -85,7 +89,3 @@ Video-Sharing-App/
 ## Contributions
 
 Contributions are welcome! Feel free to fork this repo, create a new branch, and submit a pull request.
-
-# Backend Data modeling Architecture
-
-->Link : - https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj
