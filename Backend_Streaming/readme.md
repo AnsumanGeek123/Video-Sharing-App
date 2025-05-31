@@ -4,7 +4,7 @@ A full-stack video-sharing application built using **MERN stack (MongoDB, Expres
 
 # Backend Data modeling Architecture
 
-->Link : - https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj
+->Link : - https://app.eraser.io/workspace/OyU1p9eAZaucM0UsLv4I?origin=share
 
 ## Features
 
